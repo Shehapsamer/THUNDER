@@ -206,7 +206,9 @@ p{
   padding: 0 5%;
 
 }
-
+.fix a{
+  color: var(--textColor) !important;
+}
 @keyframes tranz {
   0% {
     transform: translateY(-100px);
@@ -647,7 +649,7 @@ p{
   height: 300px;
   padding: 70px 10%;
   background-color: #DCFFB7;
-  background-image: url(../img/intro.jpg);
+  background-image: url(../img/campingbg2.jpg);
   background-size: cover;
   background-position: bottom;
   z-index: 1;
@@ -877,7 +879,9 @@ background-color: #000 !important;
 .S1_about h4{
   color: var(--btnColor);
 }
-
+.S1_about img{
+  border-radius: 30px;
+}
 
 
 
@@ -951,6 +955,19 @@ background-color: #000 !important;
   .S3_home {
     padding-left: 20px;
   }
+
+  .element-item{
+    width: 100%;
+  }
+.intro_sections {
+  flex-direction: column;
+}
+  .button-group{
+  flex-direction: column;
+  }
+    .button-group .button{
+      margin: 5px 0;
+    }
 }
 
 
@@ -985,4 +1002,14 @@ background-color: #000 !important;
 
 .S3 img {
   height: 200px !important;
+}
+.Services{
+  padding: 70px 0;
+
+}
+.Services .box{
+  padding: 25px;
+}
+.Services .box img{
+  border-radius: 10px;
 }
