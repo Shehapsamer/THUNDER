@@ -26,7 +26,7 @@ owl.owlCarousel({
     loop:true,
     margin:0,
   navigation: true,
-    autoplay: true,
+    autoplay: false,
     smartSpeed: 800,
     rtl:true,
     nav: true,
@@ -59,7 +59,7 @@ owl.owlCarousel({
     loop:true,
     margin:0,
   navigation: true,
-    autoplay: true,
+    autoplay: false,
     smartSpeed: 800,
     rtl:true,
     nav: true,
@@ -118,7 +118,7 @@ owl.owlCarousel({
     }
 });
 
-var owl = $('#slider_3');
+var owl = $('.slider_3');
 owl.owlCarousel({
     items:4, 
   // items change number for slider display on desktop
