@@ -1022,3 +1022,28 @@ background-color: #000 !important;
 .Services .box img{
   border-radius: 10px;
 }
+
+
+.WahtsApp {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #11BA17;
+  display: flex;
+  align-items: center;
+  z-index: 222;
+  justify-content: center;
+}
+
+.phone {
+  bottom: 90px;
+  background-color: #213693;
+}
+
+.WahtsApp a svg {
+  color: #fff;
+  font-size: 25px;
+}
